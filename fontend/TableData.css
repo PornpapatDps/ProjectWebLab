@@ -1,0 +1,337 @@
+
+.pageWeb{
+    background-color: #FFF4E3;
+}
+.headder{
+    display: flex;
+    font-size:22px;
+    font-weight:bold;
+    font-family:kanit;
+    color: #573d3d;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF4E3 ;
+    padding: 5px;
+    border-bottom: 3px solid #573d3d;
+}
+.headlogo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.font{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo{
+    padding: 10px;  
+    align-items: center;
+}
+.headlogo2{
+    padding: 10px;
+    display: flex;
+    padding-right: 100px;
+}
+.logo2{
+    
+    padding: 10px;
+    align-items: center;
+    
+}
+.font2{ 
+ align-items: center;
+ color: #573d3d;
+}
+
+
+.body{
+    font-size: 20px;
+    font-family: kanit;
+    display: flex;
+    padding:10px;
+    justify-content:center;
+    border-bottom: 3px solid rgb(87, 61, 61);
+}
+.bodyleft{
+    font-size:18px;
+    font-weight:bold;
+    font-family:kanit;  
+    padding: 10px;
+    margin: 5px;
+    padding-left: 1px;
+    
+}
+.OrderID{
+    font-size:24px;
+    padding: 30px;
+    
+}
+.OrderIDBlock{
+    font-size:24px;
+}
+.OriginPlace{
+    font-size:24px;
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.OriginPlaceBlock{
+    font-size:24px;
+}
+.OrderDate{
+    font-size:24px;
+    padding: 20px;
+}
+.OrderDateBlock{
+    font-size:24px;
+
+}
+
+.bodyright{
+    font-size:18px;
+    font-weight:bold;
+    font-family:kanit;
+    padding: 10px;
+    margin-left: 100px;
+    margin-buton: 20px;
+}
+.FromStatus{
+    padding: 30px;    
+}
+.FontStatus{
+    font-size:24px;
+    font-weight:bold;
+    font-family:kanit;
+    padding: 10px;
+}
+.TypeStatus{
+    margin: 10px;
+}
+.DestinationPlace{
+    font-size:24px;
+    font-weight:bold;
+    padding: 30px;
+    
+}
+.ProblemTransport{
+    font-size:24px;
+    font-weight:bold;
+    padding: 30px;
+    
+}
+.ProblemText{
+    margin:10px;
+}
+.warehouse{
+    font-size: 20px;
+    font-family: kanit;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 3px solid rgb(87, 61, 61);
+}
+.warehousestorage{
+display: flex;
+justify-content: center;
+flex-direction: column;
+padding: 10px;
+padding-left: 50px;
+}
+
+.warehousefont{
+    font-size:24px;
+    font-weight:bold;
+    font-family:kanit;
+    padding: 10px;
+    margin-buttom: 10px;
+}
+.warehouseNum{
+    font-size:16px;
+    font-width:bold;
+    margin-left:40px;
+    font-hover:hover;
+}
+.warehouseBlock{
+    display: flex;
+    font-size:18px;
+    flex-direction: column;
+
+}
+.warehouseArea{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+    padding: 10px;
+    padding-left: 50px;
+    margin: 5px;
+    
+}
+.warehouseAreafont{
+    font-size:24px;
+    font-weight:bold;
+    font-family:kanit;
+    padding: 10px;
+}
+.warehouseAreaBlock{
+    display: flex;
+    font-size:18px;
+    flex-direction: column;
+    
+}
+.warehouseAreaBlockLogo{
+    display: flex;
+    padding-top: 30px;
+   // padding-right: 60px;
+
+}
+.warehouseAreaBlockfont{
+    display: flex;
+    margin-buttom: 10px;
+    font-weight: bold;
+    
+}
+
+.datetimewarehouse{
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+    margin-buttom: 50px; 
+}
+
+.Zone{
+    display: flex;
+    justify-content: center;
+    margin-left: 70px;
+    flex-direction: column;
+}
+
+.FeedBack{
+    font-size: 20px;
+    font-family: kanit;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 3px solid rgb(87, 61, 61);
+}
+
+.EfficiencyTransportation{
+    display: flex;    
+    font-family: kanit;
+    align-items: center;
+    padding-right: 40px;
+}
+.typeETComment{
+    display: flex;
+    flex-direction: column;
+    margin-buttom:5px;
+    font-weight:bold;
+    font-size:22px;
+}
+.fontET{
+    display: flex;
+    padding: 30px;
+    font-weight:bold;
+    font-size:22px;
+
+}
+.ETBlock{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-right: 100px;
+    font-size:20px;
+ 
+}
+.ProblemTransport{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-buttom:30px;
+    margin-right: 80px;
+    margin: 5px;
+
+}
+.fontProblem{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-right:120px;
+    font-weight:bold;
+    font-size:22px;
+    margin-buttom: 50px;
+    //margin: 5px;
+}
+.ProblemText{
+    display: flex;
+    padding: 10px;
+    margin:10px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding:40px;
+
+}
+.button{
+    width: 150px;
+    height: 50px;
+    background :#573d3d;
+    color: #FFF4E3;
+    font-family: "kanit";
+    font-weight: 700;
+    font-size:30px;
+    border-radius: 15px ;
+    
+  }
+.button :hover{
+    background-color: #573d3d;
+    color: #FFF4E3;
+    border: 2px solid #573d3d;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.message {
+    background-color: lightgray;
+    padding: 10px;
+    margin-button: 10px;
+    display: none;
+  }
+  
+.message.success {
+    background-color: lightgreen;
+    display: block;
+  }
+  
+.message.danger {
+    background-color: lightcoral;
+    display: block;
+  }
+@media screen and (max-width: 768px) {
+    .headder{
+        width: 100%;
+        height: 100%;
+      }
+    .body{
+      flex-direction: column;
+    }
+    .warehouse{
+        
+      flex-direction: column;
+    }
+    
+    .FeedBack{
+      
+      flex-direction: column;
+    }
+    .center{
+      width: 100%;
+    }
+    .button{
+      width:100%
+    }
+  }
+
