@@ -1,5 +1,6 @@
 เช็คงาน
 Home (html,✅css,js)
 About (html,css,js)
-ส่งสินค้า (html,css,js) => ไปหน้าformลงทะเบียน
+Logistic (html,css,js) => ไปหน้าformลงทะเบียน
+TableData (html,css,js)
 Contact (html,css,js)
