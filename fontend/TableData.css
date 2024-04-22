@@ -1,337 +1,139 @@
-
-.pageWeb{
-    background-color: #FFF4E3;
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'kanit',sans-serif;
+    list-style: none;
+    text-decoration: none;
 }
-.headder{
+header{
+    position:fixed;
+    right:0;
+    top:0;
+    z-index: 1000;
+    width: 100%;
     display: flex;
-    font-size:22px;
-    font-weight:bold;
-    font-family:kanit;
-    color: #573d3d;
-    align-items: center;
     justify-content: space-between;
-    background-color: #FFF4E3 ;
-    padding: 5px;
-    border-bottom: 3px solid #573d3d;
+    padding:33px 9%;
+    background:transparent ;
 }
-.headlogo{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-.font{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
+
+
 .logo{
-    padding: 10px;  
-    align-items: center;
+    font-size:35px;
+    font-weight:700;
+    color:white;
 }
-.headlogo2{
-    padding: 10px;
-    display: flex;
-    padding-right: 100px;
+.navlist{
+    display:flex;
 }
-.logo2{
-    
-    padding: 10px;
-    align-items: center;
-    
-}
-.font2{ 
- align-items: center;
- color: #573d3d;
-}
-
-
-.body{
-    font-size: 20px;
-    font-family: kanit;
-    display: flex;
-    padding:10px;
-    justify-content:center;
-    border-bottom: 3px solid rgb(87, 61, 61);
-}
-.bodyleft{
-    font-size:18px;
-    font-weight:bold;
-    font-family:kanit;  
-    padding: 10px;
-    margin: 5px;
-    padding-left: 1px;
-    
-}
-.OrderID{
-    font-size:24px;
-    padding: 30px;
-    
-}
-.OrderIDBlock{
-    font-size:24px;
-}
-.OriginPlace{
-    font-size:24px;
-    padding: 20px;
-    margin-top: 80px;
-}
-
-.OriginPlaceBlock{
-    font-size:24px;
-}
-.OrderDate{
-    font-size:24px;
-    padding: 20px;
-}
-.OrderDateBlock{
-    font-size:24px;
-
-}
-
-.bodyright{
-    font-size:18px;
-    font-weight:bold;
-    font-family:kanit;
-    padding: 10px;
-    margin-left: 100px;
-    margin-buton: 20px;
-}
-.FromStatus{
-    padding: 30px;    
-}
-.FontStatus{
-    font-size:24px;
-    font-weight:bold;
-    font-family:kanit;
-    padding: 10px;
-}
-.TypeStatus{
-    margin: 10px;
-}
-.DestinationPlace{
-    font-size:24px;
-    font-weight:bold;
-    padding: 30px;
-    
-}
-.ProblemTransport{
-    font-size:24px;
-    font-weight:bold;
-    padding: 30px;
-    
-}
-.ProblemText{
-    margin:10px;
-}
-.warehouse{
-    font-size: 20px;
-    font-family: kanit;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    border-bottom: 3px solid rgb(87, 61, 61);
-}
-.warehousestorage{
-display: flex;
-justify-content: center;
-flex-direction: column;
-padding: 10px;
-padding-left: 50px;
-}
-
-.warehousefont{
-    font-size:24px;
-    font-weight:bold;
-    font-family:kanit;
-    padding: 10px;
-    margin-buttom: 10px;
-}
-.warehouseNum{
-    font-size:16px;
-    font-width:bold;
-    margin-left:40px;
-    font-hover:hover;
-}
-.warehouseBlock{
-    display: flex;
-    font-size:18px;
-    flex-direction: column;
-
-}
-.warehouseArea{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin-bottom: 70px;
-    padding: 10px;
-    padding-left: 50px;
-    margin: 5px;
-    
-}
-.warehouseAreafont{
-    font-size:24px;
-    font-weight:bold;
-    font-family:kanit;
-    padding: 10px;
-}
-.warehouseAreaBlock{
-    display: flex;
-    font-size:18px;
-    flex-direction: column;
-    
-}
-.warehouseAreaBlockLogo{
-    display: flex;
-    padding-top: 30px;
-   // padding-right: 60px;
-
-}
-.warehouseAreaBlockfont{
-    display: flex;
-    margin-buttom: 10px;
-    font-weight: bold;
-    
-}
-
-.datetimewarehouse{
-    display: flex;
-    justify-content: center;
-    margin-left: 70px;
-    margin-buttom: 50px; 
-}
-
-.Zone{
-    display: flex;
-    justify-content: center;
-    margin-left: 70px;
-    flex-direction: column;
-}
-
-.FeedBack{
-    font-size: 20px;
-    font-family: kanit;
-    display: flex;
-    justify-content: center;
-    padding: 10px;
-    border-bottom: 3px solid rgb(87, 61, 61);
-}
-
-.EfficiencyTransportation{
-    display: flex;    
-    font-family: kanit;
-    align-items: center;
-    padding-right: 40px;
-}
-.typeETComment{
-    display: flex;
-    flex-direction: column;
-    margin-buttom:5px;
-    font-weight:bold;
-    font-size:22px;
-}
-.fontET{
-    display: flex;
-    padding: 30px;
-    font-weight:bold;
-    font-size:22px;
-
-}
-.ETBlock{
-    display: flex;
-    flex-direction: column;
-    padding: 5px;
-    margin-right: 100px;
+.navlist a{
+    color:white;
+    margin-left: 60px;
     font-size:20px;
- 
+    font-weight:600;
+    border-bottom: 2px solid transparent;
+    transition: all .55s ease;
 }
-.ProblemTransport{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    margin-buttom:30px;
-    margin-right: 80px;
-    margin: 5px;
-
+.navlist a:hover{
+    border-bottom: 2px solid white;
 }
-.fontProblem{
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    margin-right:120px;
-    font-weight:bold;
-    font-size:22px;
-    margin-buttom: 50px;
-    //margin: 5px;
-}
-.ProblemText{
-    display: flex;
-    padding: 10px;
-    margin:10px;
-}
-
-.center{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    padding:40px;
-
-}
-.button{
-    width: 150px;
-    height: 50px;
-    background :#573d3d;
-    color: #FFF4E3;
-    font-family: "kanit";
-    font-weight: 700;
-    font-size:30px;
-    border-radius: 15px ;
-    
-  }
-.button :hover{
-    background-color: #573d3d;
-    color: #FFF4E3;
-    border: 2px solid #573d3d;
-    border-radius: 15px;
+#menu-icon{
+    color:white;
+    font-size:35px;
+    z-index: 10001;
     cursor: pointer;
 }
-.message {
-    background-color: lightgray;
-    padding: 10px;
-    margin-button: 10px;
-    display: none;
-  }
-  
-.message.success {
-    background-color: lightgreen;
-    display: block;
-  }
-  
-.message.danger {
-    background-color: lightcoral;
-    display: block;
-  }
-@media screen and (max-width: 768px) {
-    .headder{
-        width: 100%;
-        height: 100%;
-      }
-    .body{
-      flex-direction: column;
+.hero{
+    height:100%;
+    width:100%;
+    min-height:100vh;
+    background:linear-gradient(245.59deg, #9D6C65 0%, #674039 28.53%, #332321 75.52%); 
+    position:relative;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items:center;
+    gap:2rem;
+}
+@media(max-width:1460px){
+    section{
+        padding:0 12%;
+        transition:.2s;
     }
-    .warehouse{
+}
+@media(max-width:1340px) {
+    .hero-img img{
+        width:100%;
+        height:auto;
+    }
+    .hero-text h1{
+        font-size:75px;
+        margin:0 0 30px;
+    }
+    .hero-text h5{
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:990px){
+    #menu-icon{
+        display:block;
+    }
+}
+@media(max-width:1195px){
+    section{
+        padding:0 3%;
+    }
+    .hero-text{
+        padding-top:115px;
+    }
+    .hero-img img{
+        width:560px;
+        height:auto;
+    }
+    .hero{
+        height:100%;
+        gap:1rem;
+        grid-template-columns: 1fr;
+    }
+    .icons{
+        display:none;
+    }
+    .scroll-down{
+        display:none;
+    }
+}
+@media(max-width:990px){
+    #menu-icon{
+        display:block;
+    }
+    .navlist{
+        position:absolute;
+        top:100%;
+        right:-100%;
+        width:300px;
+        height:40vh;
+        background: #835A53;
+        border-radius: 30px;
+        display:flex;
+        flex-direction:column;
+        padding:50px 20px;
+        transition: all .55s ease;
         
-      flex-direction: column;
     }
-    
-    .FeedBack{
-      
-      flex-direction: column;
+    .navlist a{
+        margin-left:0;
+        display:block;
+        justify-content:center;
+        font-size:20px;
+        margin:7px 0;
     }
-    .center{
-      width: 100%;
+    .navlist.open{
+        right:0;
     }
-    .button{
-      width:100%
+}
+@media (max-width:680px){
+    .hero-img img{
+        width:100%;
+        height:auto;
     }
-  }
-
+}
